@@ -7,12 +7,32 @@
 body {
     background-image: url(FONDO%20LENTES.png);
 }
+	<style>
+    .marquesina {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .marquesina img {
+      display: inline-block;
+      animation: desplazamiento 10s linear infinite;
+    }
+
+    @keyframes desplazamiento {
+      from { transform: translateX(100%); }
+      to { transform: translateX(-100%); }
+    }
+  </style>
 </style>
 </head>
 
 <body>
 <header><img src="LOGO STARCINEMA.png" alt="" width="362" height="286"/><center><h1>Star Cinema</center></h1></header>
 <h2>
+	<div class="marquesina">
+  <img src="Publi1.jpg" alt="Imagen en marquesina">
+</div>
 <center><div class="header">
 
 <nav>
